@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "aws-sdk": "*",
+    "dotenv": "*",
+    "lodash": "^4.13.1",
+    "moment": "^2.24.0",
+    "rss": "^1.2.2"
+  }
+}

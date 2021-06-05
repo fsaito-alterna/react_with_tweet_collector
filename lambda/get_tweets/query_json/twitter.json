@@ -1,0 +1,5 @@
+{
+  "search_words": [
+    { "keyword": "検索キーワード", "bucket": "sample-web-ids-keyword" }
+  ]
+}
