@@ -4,6 +4,5 @@ lambda/node_modules
 client/logs
 client/*.log
 client/node_modules
-client/public/client.js
-client/public/vendor.js
+client/public/*
 client/tmp
