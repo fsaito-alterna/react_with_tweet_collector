@@ -1,0 +1,39 @@
+{
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
+    }
+  },
+  "function": {
+    "amplifyGetTweetsToS3": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "storage",
+          "resourceName": "neko",
+          "attributes": [
+            "BucketName"
+          ]
+        }
+      ]
+    }
+  },
+  "auth": {
+    "nekonekotweets9222479a": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "neko": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

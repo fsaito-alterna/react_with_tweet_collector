@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "neko": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nekonekotweets-dev-165042-authRole",
+      "UnauthRoleArn": "arn:aws:iam::304345107760:role/amplify-nekonekotweets-dev-165042-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::304345107760:role/amplify-nekonekotweets-dev-165042-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-nekonekotweets-dev-165042-deployment",
+      "UnauthRoleName": "amplify-nekonekotweets-dev-165042-unauthRole",
+      "StackName": "amplify-nekonekotweets-dev-165042",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:304345107760:stack/amplify-nekonekotweets-dev-165042/388648c0-d19c-11eb-84a3-0e4255801b63",
+      "AmplifyAppId": "d1weqr6xg3mka7"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1weqr6xg3mka7",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "amplifyGetTweetsToS3": {
+          "deploymentBucketName": "amplify-nekonekotweets-dev-165042-deployment",
+          "s3Key": "amplify-builds/amplifyGetTweetsToS3-7749693179547570346e-build.zip"
+        }
+      },
+      "auth": {
+        "nekonekotweets9222479a": {}
+      }
+    }
+  }
+}
